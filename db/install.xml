@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLDB PATH="blocks/quadratic_solver/db" VERSION="2023101002" COMMENT="DB structure for quadratic_solver plugin">
+
+    <TABLES>
+
+        <TABLE NAME="block_quadratic_solver_results" COMMENT="Stores the results of quadratic equations calculations">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+                <FIELD NAME="a" TYPE="float" NOTNULL="true" COMMENT="Coefficient a"/>
+                <FIELD NAME="b" TYPE="float" NOTNULL="true" COMMENT="Coefficient b"/>
+                <FIELD NAME="c" TYPE="float" NOTNULL="true" COMMENT="Coefficient c"/>
+                <FIELD NAME="x1" TYPE="float" NOTNULL="false" COMMENT="First root (nullable)"/>
+                <FIELD NAME="x2" TYPE="float" NOTNULL="false" COMMENT="Second root (nullable)"/>
+                <FIELD NAME="timecreated" TYPE="int" LENGTH="10" NOTNULL="true" COMMENT="Time when the record was created"/>
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+            </KEYS>
+        </TABLE>
+
+    </TABLES>
+</XMLDB>

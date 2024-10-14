@@ -1,0 +1,86 @@
+.block_quadratic_solver form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+.block_quadratic_solver .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.block_quadratic_solver input[type="text"] {
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.block_quadratic_solver label {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.block_quadratic_solver input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.block_quadratic_solver input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.block_quadratic_solver .notifyproblem {
+    width: 100%;
+    background-color: #ffcccc;
+    color: #a94442;
+    border: 1px solid #a94442;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.block_quadratic_solver .results {
+    width: 100%;
+    padding: 10px;
+    background-color: #e7f3fe;
+    color: #31708f;
+    border: 1px solid #bce8f1;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+table.quadratic_solver_results {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table.quadratic_solver_results th, table.quadratic_solver_results td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table.quadratic_solver_results th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table.quadratic_solver_results tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.quadratic_solver_results tr:hover {
+    background-color: #f1f1f1;
+}
